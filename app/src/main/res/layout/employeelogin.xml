@@ -12,7 +12,7 @@
         android:layout_marginStart="105dp"
         android:layout_marginTop="192dp"
         android:layout_marginEnd="105dp"
-        android:text="Employee Log-in"
+        android:text="@string/employee_log_in"
         android:textSize="45sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,7 +25,7 @@
         android:layout_height="45dp"
         android:layout_marginStart="44dp"
         android:layout_marginTop="285dp"
-        android:text="Email"
+        android:text="@string/email"
         android:textSize="30sp"
 
 
@@ -38,7 +38,7 @@
         android:layout_height="49dp"
         android:layout_marginStart="44dp"
         android:layout_marginTop="330dp"
-        android:text="Pass."
+        android:text="@string/pass"
         android:textSize="30sp"
 
 
@@ -52,7 +52,7 @@
         android:layout_marginStart="105dp"
         android:layout_marginEnd="105dp"
         android:layout_marginBottom="256dp"
-        android:text="Submit"
+        android:text="@string/submit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -63,11 +63,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="280dp"
         android:layout_marginEnd="56dp"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="text"
-        android:text="Employee Email"
+        android:text="@string/employee_email"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor" />
 
     <EditText
         android:id="@+id/editTextText4"
@@ -75,11 +77,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="328dp"
         android:layout_marginEnd="56dp"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="text"
-        android:text="Employee Password"
+        android:text="@string/employee_password"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -87,6 +91,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
+        android:contentDescription="@string/go_back"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/arrow_back" />
