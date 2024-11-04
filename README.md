@@ -1,2 +1,3 @@
 # COMP2000-PROJECT
-COMP2000 Project
+
+Project can be found in the master branch.
